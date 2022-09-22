@@ -1,7 +1,7 @@
 let 方位 = 0
 basic.forever(function () {
     方位 = input.compassHeading()
-    if (方位 < 360) {
+    if (方位 < 359) {
         basic.showLeds(`
             . . # . .
             . # # # .
