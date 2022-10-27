@@ -1,31 +1,31 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="do$Orh1Y,lJ4v2A$k.`s">方位</variable></variables><block type="device_forever" id="#?OFUyD_E4r7r*U^N.;(" x="3" y="-346"><statement name="HANDLER"><block type="variables_set" id="|{lC?q|Z6OO,ct)AOo+b"><field name="VAR" id="do$Orh1Y,lJ4v2A$k.`s">方位</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="._$4dj|*@VYNt(jHFEW6"></block></value><next><block type="controls_if" id="zzE`5ID~-(JRp*%Af?fx"><mutation elseif="3" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="as-x:;OFvB?xQrCHJ:nA"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Qppa`k[lD@g0EN=T/47_"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id=")6nN(DBO5%]nimLti{8:"><field name="VAR" id="do$Orh1Y,lJ4v2A$k.`s">方位</field></block></value><value name="B"><shadow type="math_number" id="s/*6-]S1~9oph_r}d:jy"><field name="NUM">45</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="@ac-(j=Jj5+ZIQ3A,}Bz"><field name="LEDS">`
-        . . # . . 
-        . # # # . 
-        # . # . # 
-        . . # . . 
-        . . # . .
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="do$Orh1Y,lJ4v2A$k.`s">方位</variable></variables><block type="device_forever" id="#?OFUyD_E4r7r*U^N.;(" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="|{lC?q|Z6OO,ct)AOo+b"><field name="VAR" id="do$Orh1Y,lJ4v2A$k.`s">方位</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="._$4dj|*@VYNt(jHFEW6"></block></value><next><block type="controls_if" id="zzE`5ID~-(JRp*%Af?fx"><mutation elseif="3" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="as-x:;OFvB?xQrCHJ:nA"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Qppa`k[lD@g0EN=T/47_"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id=")6nN(DBO5%]nimLti{8:"><field name="VAR" id="do$Orh1Y,lJ4v2A$k.`s">方位</field></block></value><value name="B"><shadow type="math_number" id="s/*6-]S1~9oph_r}d:jy"><field name="NUM">45</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="@ac-(j=Jj5+ZIQ3A,}Bz"><field name="LEDS">`
+        . # . # . 
+        # # . # # 
+        . # . # . 
+        . # . # . 
+        # . . # #
         `</field></block></statement><value name="IF1"><block type="logic_compare" id="i0qLrT7C0fmQH}zs9h;P"><field name="OP">LT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="M.~#2v%?K7pecR/u{u*p"><field name="VAR" id="do$Orh1Y,lJ4v2A$k.`s">方位</field></block></value><value name="B"><shadow type="math_number" id="$q5alh($hH]^ObM63rk?"><field name="NUM">135</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="kVM8gSMmjhL/8F7fRQCG"><field name="LEDS">`
         . . # . . 
-        . . . # . 
         # # # # # 
-        . . . # . 
-        . . # . .
+        . # # # . 
+        . # # # . 
+        # . # . #
         `</field></block></statement><value name="IF2"><block type="logic_compare" id="V*zXB`z^Xc8^4]yk:#ys"><field name="OP">LT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="sgv/5E8/`c*v13?Go`C2"><field name="VAR" id="do$Orh1Y,lJ4v2A$k.`s">方位</field></block></value><value name="B"><shadow type="math_number" id="H:*uWewY~KQW@{Vcpi[-"><field name="NUM">225</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="_ZZHAF#AWi*yKE+T;y6!"><field name="LEDS">`
-        . . # . . 
-        . . # . . 
-        # . # . # 
         . # # # . 
-        . . # . .
-        `</field></block></statement><value name="IF3"><block type="logic_compare" id="@w.eyLkHDv2`8Z3.T4~?"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="Hz|SZVp-SwwB$s=$%a,u"><field name="VAR" id="do$Orh1Y,lJ4v2A$k.`s">方位</field></block></value><value name="B"><shadow type="math_number" id="xoRr^Pxwlo$F9Q)szK9}"><field name="NUM">315</field></shadow></value></block></value><statement name="DO3"><block type="device_show_leds" id=";De7`u%81d,#S_N`g~_J"><field name="LEDS">`
         . . # . . 
-        . # . . . 
         # # # # # 
-        . # . . . 
-        . . # . .
+        # # # # # 
+        # . # . #
+        `</field></block></statement><value name="IF3"><block type="logic_compare" id="@w.eyLkHDv2`8Z3.T4~?"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="Hz|SZVp-SwwB$s=$%a,u"><field name="VAR" id="do$Orh1Y,lJ4v2A$k.`s">方位</field></block></value><value name="B"><shadow type="math_number" id="xoRr^Pxwlo$F9Q)szK9}"><field name="NUM">315</field></shadow></value></block></value><statement name="DO3"><block type="device_show_leds" id=";De7`u%81d,#S_N`g~_J"><field name="LEDS">`
+        # # # # # 
+        . # . # . 
+        # # # # # 
+        # # . # # 
+        # # # # #
         `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="Uh!+AOwqf2#m8Eqtos1e"><field name="LEDS">`
-        . . # . . 
-        . # # # . 
-        # . # . # 
-        . . # . . 
-        . . # . .
+        . # . # . 
+        # # . # # 
+        . # . # . 
+        . # . # . 
+        # . . # #
         `</field></block></statement></block></next></block></statement></block></xml>
